@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "Header.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ViewController *viev=[[ViewController alloc]init];
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:viev];
+    leftSideOfTheSlideViewController *left=[[leftSideOfTheSlideViewController alloc]init];
+    ZYSliderViewController *sliderVC = [[ZYSliderViewController alloc] initWithMainViewController:nav leftViewController:left rightViewController:nil];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = sliderVC;
     return YES;
 }
 

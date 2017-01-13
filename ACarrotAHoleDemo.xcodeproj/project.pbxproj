@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805D954B8C8395030450B219 /* libPods-ACarrotAHoleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A75610316C4D968A0345A60 /* libPods-ACarrotAHoleDemo.a */; };
+		E6C37F9E1E286E5900E1E8FA /* minAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C37F9D1E286E5900E1E8FA /* minAFNetworking.m */; };
+		E6C37FA61E287A7600E1E8FA /* BaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C37FA01E287A7600E1E8FA /* BaseClass.m */; };
+		E6C37FA71E287A7600E1E8FA /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C37FA21E287A7600E1E8FA /* Company.m */; };
+		E6C37FA81E287A7600E1E8FA /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C37FA41E287A7600E1E8FA /* Data.m */; };
 		E6E096251E26005200B8B130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E096241E26005200B8B130 /* main.m */; };
 		E6E096281E26005200B8B130 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E096271E26005200B8B130 /* AppDelegate.m */; };
 		E6E0962B1E26005200B8B130 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0962A1E26005200B8B130 /* ViewController.m */; };
@@ -15,6 +20,23 @@
 		E6E096331E26005200B8B130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E096311E26005200B8B130 /* LaunchScreen.storyboard */; };
 		E6E0963E1E26005200B8B130 /* ACarrotAHoleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0963D1E26005200B8B130 /* ACarrotAHoleDemoTests.m */; };
 		E6E096491E26005200B8B130 /* ACarrotAHoleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E096481E26005200B8B130 /* ACarrotAHoleDemoUITests.m */; };
+		E6E096591E26386100B8B130 /* waterfallFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E096581E26386100B8B130 /* waterfallFlowViewController.m */; };
+		E6E0965C1E270F9400B8B130 /* CustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0965B1E270F9400B8B130 /* CustomLayout.m */; };
+		E6E0965F1E27234500B8B130 /* FireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0965E1E27234500B8B130 /* FireworksViewController.m */; };
+		E6E096621E2723A100B8B130 /* FFRing.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E096601E2723A100B8B130 /* FFRing.png */; };
+		E6E096631E2723A100B8B130 /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E096611E2723A100B8B130 /* FFTspark.png */; };
+		E6E096661E272A9600B8B130 /* PromptInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E096651E272A9600B8B130 /* PromptInformationViewController.m */; };
+		E6E096761E272DAE00B8B130 /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0966B1E272DAE00B8B130 /* FTIndicator.m */; };
+		E6E096771E272DAE00B8B130 /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0966E1E272DAE00B8B130 /* FTNotificationIndicator.m */; };
+		E6E096781E272DAE00B8B130 /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E096711E272DAE00B8B130 /* FTProgressIndicator.m */; };
+		E6E096791E272DAE00B8B130 /* ImageAsserts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6E096721E272DAE00B8B130 /* ImageAsserts.bundle */; };
+		E6E0967A1E272DAE00B8B130 /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E096751E272DAE00B8B130 /* FTToastIndicator.m */; };
+		E6E0967D1E274F9F00B8B130 /* IndexOfTheSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0967C1E274F9F00B8B130 /* IndexOfTheSideViewController.m */; };
+		E6E096801E27507F00B8B130 /* LGUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0967F1E27507F00B8B130 /* LGUIView.m */; };
+		E6E096861E275EDB00B8B130 /* leftSideOfTheSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E096851E275EDB00B8B130 /* leftSideOfTheSlideViewController.m */; };
+		E6E096891E275F1700B8B130 /* MinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E096881E275F1700B8B130 /* MinViewController.m */; };
+		E6E0968F1E275F9D00B8B130 /* UIViewController+ZYSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0968C1E275F9D00B8B130 /* UIViewController+ZYSliderViewController.m */; };
+		E6E096901E275F9D00B8B130 /* ZYSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0968E1E275F9D00B8B130 /* ZYSliderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38F7DE736B9C561632C162C1 /* Pods-ACarrotAHoleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACarrotAHoleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACarrotAHoleDemo/Pods-ACarrotAHoleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6A75610316C4D968A0345A60 /* libPods-ACarrotAHoleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ACarrotAHoleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F30B215DE8BDC1D30763B22 /* Pods-ACarrotAHoleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACarrotAHoleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACarrotAHoleDemo/Pods-ACarrotAHoleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E6C37F9C1E286E5900E1E8FA /* minAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minAFNetworking.h; sourceTree = "<group>"; };
+		E6C37F9D1E286E5900E1E8FA /* minAFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = minAFNetworking.m; sourceTree = "<group>"; };
+		E6C37F9F1E287A7600E1E8FA /* BaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClass.h; sourceTree = "<group>"; };
+		E6C37FA01E287A7600E1E8FA /* BaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseClass.m; sourceTree = "<group>"; };
+		E6C37FA11E287A7600E1E8FA /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		E6C37FA21E287A7600E1E8FA /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		E6C37FA31E287A7600E1E8FA /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		E6C37FA41E287A7600E1E8FA /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		E6C37FA51E287A7600E1E8FA /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
 		E6E096201E26005200B8B130 /* ACarrotAHoleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACarrotAHoleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E096241E26005200B8B130 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6E096261E26005200B8B130 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +85,38 @@
 		E6E096441E26005200B8B130 /* ACarrotAHoleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACarrotAHoleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E096481E26005200B8B130 /* ACarrotAHoleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACarrotAHoleDemoUITests.m; sourceTree = "<group>"; };
 		E6E0964A1E26005200B8B130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E096561E2615AD00B8B130 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E6E096571E26386100B8B130 /* waterfallFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waterfallFlowViewController.h; sourceTree = "<group>"; };
+		E6E096581E26386100B8B130 /* waterfallFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waterfallFlowViewController.m; sourceTree = "<group>"; };
+		E6E0965A1E270F9400B8B130 /* CustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayout.h; sourceTree = "<group>"; };
+		E6E0965B1E270F9400B8B130 /* CustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayout.m; sourceTree = "<group>"; };
+		E6E0965D1E27234500B8B130 /* FireworksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworksViewController.h; sourceTree = "<group>"; };
+		E6E0965E1E27234500B8B130 /* FireworksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireworksViewController.m; sourceTree = "<group>"; };
+		E6E096601E2723A100B8B130 /* FFRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFRing.png; sourceTree = "<group>"; };
+		E6E096611E2723A100B8B130 /* FFTspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFTspark.png; sourceTree = "<group>"; };
+		E6E096641E272A9600B8B130 /* PromptInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromptInformationViewController.h; sourceTree = "<group>"; };
+		E6E096651E272A9600B8B130 /* PromptInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromptInformationViewController.m; sourceTree = "<group>"; };
+		E6E0966A1E272DAE00B8B130 /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
+		E6E0966B1E272DAE00B8B130 /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
+		E6E0966D1E272DAE00B8B130 /* FTNotificationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationIndicator.h; sourceTree = "<group>"; };
+		E6E0966E1E272DAE00B8B130 /* FTNotificationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationIndicator.m; sourceTree = "<group>"; };
+		E6E096701E272DAE00B8B130 /* FTProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressIndicator.h; sourceTree = "<group>"; };
+		E6E096711E272DAE00B8B130 /* FTProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTProgressIndicator.m; sourceTree = "<group>"; };
+		E6E096721E272DAE00B8B130 /* ImageAsserts.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageAsserts.bundle; sourceTree = "<group>"; };
+		E6E096741E272DAE00B8B130 /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
+		E6E096751E272DAE00B8B130 /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
+		E6E0967B1E274F9F00B8B130 /* IndexOfTheSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexOfTheSideViewController.h; sourceTree = "<group>"; };
+		E6E0967C1E274F9F00B8B130 /* IndexOfTheSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexOfTheSideViewController.m; sourceTree = "<group>"; };
+		E6E0967E1E27507F00B8B130 /* LGUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGUIView.h; sourceTree = "<group>"; };
+		E6E0967F1E27507F00B8B130 /* LGUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGUIView.m; sourceTree = "<group>"; };
+		E6E096841E275EDB00B8B130 /* leftSideOfTheSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftSideOfTheSlideViewController.h; sourceTree = "<group>"; };
+		E6E096851E275EDB00B8B130 /* leftSideOfTheSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftSideOfTheSlideViewController.m; sourceTree = "<group>"; };
+		E6E096871E275F1700B8B130 /* MinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinViewController.h; sourceTree = "<group>"; };
+		E6E096881E275F1700B8B130 /* MinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinViewController.m; sourceTree = "<group>"; };
+		E6E0968B1E275F9D00B8B130 /* UIViewController+ZYSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZYSliderViewController.h"; sourceTree = "<group>"; };
+		E6E0968C1E275F9D00B8B130 /* UIViewController+ZYSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZYSliderViewController.m"; sourceTree = "<group>"; };
+		E6E0968D1E275F9D00B8B130 /* ZYSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSliderViewController.h; sourceTree = "<group>"; };
+		E6E0968E1E275F9D00B8B130 /* ZYSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSliderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805D954B8C8395030450B219 /* libPods-ACarrotAHoleDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +145,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E7CC0B157BE5191F8126325 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F30B215DE8BDC1D30763B22 /* Pods-ACarrotAHoleDemo.debug.xcconfig */,
+				38F7DE736B9C561632C162C1 /* Pods-ACarrotAHoleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE1CF95878D08C109FCA86C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A75610316C4D968A0345A60 /* libPods-ACarrotAHoleDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6C37F9B1E286E2000E1E8FA /* 请求(解析神器) */ = {
+			isa = PBXGroup;
+			children = (
+				E6C37F9C1E286E5900E1E8FA /* minAFNetworking.h */,
+				E6C37F9D1E286E5900E1E8FA /* minAFNetworking.m */,
+				E6C37F9F1E287A7600E1E8FA /* BaseClass.h */,
+				E6C37FA01E287A7600E1E8FA /* BaseClass.m */,
+				E6C37FA11E287A7600E1E8FA /* Company.h */,
+				E6C37FA21E287A7600E1E8FA /* Company.m */,
+				E6C37FA31E287A7600E1E8FA /* Data.h */,
+				E6C37FA41E287A7600E1E8FA /* Data.m */,
+				E6C37FA51E287A7600E1E8FA /* DataModels.h */,
+			);
+			name = "请求(解析神器)";
+			sourceTree = "<group>";
+		};
 		E6E096171E26005200B8B130 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +185,8 @@
 				E6E0963C1E26005200B8B130 /* ACarrotAHoleDemoTests */,
 				E6E096471E26005200B8B130 /* ACarrotAHoleDemoUITests */,
 				E6E096211E26005200B8B130 /* Products */,
+				5E7CC0B157BE5191F8126325 /* Pods */,
+				DE1CF95878D08C109FCA86C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +207,28 @@
 				E6E096271E26005200B8B130 /* AppDelegate.m */,
 				E6E096291E26005200B8B130 /* ViewController.h */,
 				E6E0962A1E26005200B8B130 /* ViewController.m */,
+				E6E096571E26386100B8B130 /* waterfallFlowViewController.h */,
+				E6E096581E26386100B8B130 /* waterfallFlowViewController.m */,
+				E6E0965A1E270F9400B8B130 /* CustomLayout.h */,
+				E6E0965B1E270F9400B8B130 /* CustomLayout.m */,
+				E6E0965D1E27234500B8B130 /* FireworksViewController.h */,
+				E6E0965E1E27234500B8B130 /* FireworksViewController.m */,
+				E6E096641E272A9600B8B130 /* PromptInformationViewController.h */,
+				E6E096651E272A9600B8B130 /* PromptInformationViewController.m */,
+				E6E0967B1E274F9F00B8B130 /* IndexOfTheSideViewController.h */,
+				E6E0967C1E274F9F00B8B130 /* IndexOfTheSideViewController.m */,
+				E6E0967E1E27507F00B8B130 /* LGUIView.h */,
+				E6E0967F1E27507F00B8B130 /* LGUIView.m */,
+				E6E096871E275F1700B8B130 /* MinViewController.h */,
+				E6E096881E275F1700B8B130 /* MinViewController.m */,
+				E6E096841E275EDB00B8B130 /* leftSideOfTheSlideViewController.h */,
+				E6E096851E275EDB00B8B130 /* leftSideOfTheSlideViewController.m */,
+				E6C37F9B1E286E2000E1E8FA /* 请求(解析神器) */,
+				E6E096691E272DAE00B8B130 /* FTIndicator */,
+				E6E0968A1E275F9D00B8B130 /* ZYSliderViewController */,
+				E6E096561E2615AD00B8B130 /* Header.h */,
+				E6E096601E2723A100B8B130 /* FFRing.png */,
+				E6E096611E2723A100B8B130 /* FFTspark.png */,
 				E6E0962C1E26005200B8B130 /* Main.storyboard */,
 				E6E0962F1E26005200B8B130 /* Assets.xcassets */,
 				E6E096311E26005200B8B130 /* LaunchScreen.storyboard */,
@@ -140,6 +264,57 @@
 			path = ACarrotAHoleDemoUITests;
 			sourceTree = "<group>";
 		};
+		E6E096691E272DAE00B8B130 /* FTIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				E6E0966A1E272DAE00B8B130 /* FTIndicator.h */,
+				E6E0966B1E272DAE00B8B130 /* FTIndicator.m */,
+				E6E0966C1E272DAE00B8B130 /* FTNotificationIndicator */,
+				E6E0966F1E272DAE00B8B130 /* FTProgressIndicator */,
+				E6E096731E272DAE00B8B130 /* FTToastIndicator */,
+			);
+			path = FTIndicator;
+			sourceTree = "<group>";
+		};
+		E6E0966C1E272DAE00B8B130 /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				E6E0966D1E272DAE00B8B130 /* FTNotificationIndicator.h */,
+				E6E0966E1E272DAE00B8B130 /* FTNotificationIndicator.m */,
+			);
+			path = FTNotificationIndicator;
+			sourceTree = "<group>";
+		};
+		E6E0966F1E272DAE00B8B130 /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				E6E096701E272DAE00B8B130 /* FTProgressIndicator.h */,
+				E6E096711E272DAE00B8B130 /* FTProgressIndicator.m */,
+				E6E096721E272DAE00B8B130 /* ImageAsserts.bundle */,
+			);
+			path = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		E6E096731E272DAE00B8B130 /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				E6E096741E272DAE00B8B130 /* FTToastIndicator.h */,
+				E6E096751E272DAE00B8B130 /* FTToastIndicator.m */,
+			);
+			path = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		E6E0968A1E275F9D00B8B130 /* ZYSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E6E0968B1E275F9D00B8B130 /* UIViewController+ZYSliderViewController.h */,
+				E6E0968C1E275F9D00B8B130 /* UIViewController+ZYSliderViewController.m */,
+				E6E0968D1E275F9D00B8B130 /* ZYSliderViewController.h */,
+				E6E0968E1E275F9D00B8B130 /* ZYSliderViewController.m */,
+			);
+			path = ZYSliderViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +322,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6E0964D1E26005200B8B130 /* Build configuration list for PBXNativeTarget "ACarrotAHoleDemo" */;
 			buildPhases = (
+				3305289345C97C84B82DC0AC /* [CP] Check Pods Manifest.lock */,
 				E6E0961C1E26005200B8B130 /* Sources */,
 				E6E0961D1E26005200B8B130 /* Frameworks */,
 				E6E0961E1E26005200B8B130 /* Resources */,
+				B73C5729C0384F84E1DF6FBC /* [CP] Embed Pods Frameworks */,
+				48B5F156D1DC5971883995D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,7 +425,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E096331E26005200B8B130 /* LaunchScreen.storyboard in Resources */,
+				E6E096621E2723A100B8B130 /* FFRing.png in Resources */,
 				E6E096301E26005200B8B130 /* Assets.xcassets in Resources */,
+				E6E096791E272DAE00B8B130 /* ImageAsserts.bundle in Resources */,
+				E6E096631E2723A100B8B130 /* FFTspark.png in Resources */,
 				E6E0962E1E26005200B8B130 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +449,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3305289345C97C84B82DC0AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48B5F156D1DC5971883995D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ACarrotAHoleDemo/Pods-ACarrotAHoleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73C5729C0384F84E1DF6FBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ACarrotAHoleDemo/Pods-ACarrotAHoleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6E0961C1E26005200B8B130 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E096661E272A9600B8B130 /* PromptInformationViewController.m in Sources */,
+				E6E0968F1E275F9D00B8B130 /* UIViewController+ZYSliderViewController.m in Sources */,
 				E6E0962B1E26005200B8B130 /* ViewController.m in Sources */,
+				E6C37F9E1E286E5900E1E8FA /* minAFNetworking.m in Sources */,
+				E6E096901E275F9D00B8B130 /* ZYSliderViewController.m in Sources */,
+				E6E0965C1E270F9400B8B130 /* CustomLayout.m in Sources */,
+				E6E0967D1E274F9F00B8B130 /* IndexOfTheSideViewController.m in Sources */,
+				E6C37FA61E287A7600E1E8FA /* BaseClass.m in Sources */,
+				E6E096771E272DAE00B8B130 /* FTNotificationIndicator.m in Sources */,
+				E6E096861E275EDB00B8B130 /* leftSideOfTheSlideViewController.m in Sources */,
+				E6E096781E272DAE00B8B130 /* FTProgressIndicator.m in Sources */,
+				E6C37FA81E287A7600E1E8FA /* Data.m in Sources */,
+				E6C37FA71E287A7600E1E8FA /* Company.m in Sources */,
+				E6E096591E26386100B8B130 /* waterfallFlowViewController.m in Sources */,
+				E6E096891E275F1700B8B130 /* MinViewController.m in Sources */,
+				E6E0965F1E27234500B8B130 /* FireworksViewController.m in Sources */,
+				E6E0967A1E272DAE00B8B130 /* FTToastIndicator.m in Sources */,
+				E6E096801E27507F00B8B130 /* LGUIView.m in Sources */,
 				E6E096281E26005200B8B130 /* AppDelegate.m in Sources */,
 				E6E096251E26005200B8B130 /* main.m in Sources */,
+				E6E096761E272DAE00B8B130 /* FTIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +669,7 @@
 		};
 		E6E0964E1E26005200B8B130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F30B215DE8BDC1D30763B22 /* Pods-ACarrotAHoleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ACarrotAHoleDemo/Info.plist;
@@ -433,6 +681,7 @@
 		};
 		E6E0964F1E26005200B8B130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F7DE736B9C561632C162C1 /* Pods-ACarrotAHoleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ACarrotAHoleDemo/Info.plist;
@@ -507,6 +756,7 @@
 				E6E0964F1E26005200B8B130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6E096501E26005200B8B130 /* Build configuration list for PBXNativeTarget "ACarrotAHoleDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +765,7 @@
 				E6E096521E26005200B8B130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6E096531E26005200B8B130 /* Build configuration list for PBXNativeTarget "ACarrotAHoleDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +774,7 @@
 				E6E096551E26005200B8B130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
